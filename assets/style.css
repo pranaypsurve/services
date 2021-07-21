@@ -27,6 +27,7 @@
 }
 body{
     font-family: NotoSerif-Regular;
+    background: azure;
 }
 /* custom fonts ends */
 .social-part .fa{
@@ -36,6 +37,12 @@ ul li a{
     margin-right: 20px;
 }
 /* banner css */
+.home-banner{
+    background-color: white;
+}
+.home-banner .banner-title{
+    font-size: 38px;
+}
 .home-banner .banner-subtitle{
     font-size: 30px;
 }
@@ -54,4 +61,16 @@ ul li a{
     font-weight: 400;
     text-transform: none;
     margin: 0;
+}
+/* Contact us */
+.contact-title::after{
+    content: "";
+    border-bottom: 1px solid black;
+    width: 85px;
+    display: block;
+    margin: auto;
+    padding: 6px 0px;
+}
+.social-column i{
+    font-size: 30px;
 }
