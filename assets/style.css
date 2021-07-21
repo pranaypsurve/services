@@ -1,6 +1,37 @@
+.pt10{
+    padding-top: 10px;
+}
+.pb10{
+    padding-bottom: 10px;
+}
+.ptb10{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.ptb20{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ptb50{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/* custome padding margin ends */
+@font-face {
+    font-family: NotoSerif-Regular;
+    src: url(assets/fonts/NotoSerif-Regular.ttf);
+}
+body{
+    font-family: NotoSerif-Regular;
+}
 .social-part .fa{
     padding-right:20px;
 }
 ul li a{
     margin-right: 20px;
+}
+
+/* banner css */
+.home-banner .banner-subtitle{
+    font-size: 30px;
 }
