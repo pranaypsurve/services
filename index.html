@@ -1,52 +1,54 @@
-<html>
+<html lang="en">
 <head>
-    <title>Web Development</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- bootstrap 4 cdn links  -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" >
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Development</title>
+  <!-- <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+  <!-- bootstrap 4 cdn links  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-    <!-- fontassowome 4  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- fontassowome 4  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- included external css file -->
-    <link rel="stylesheet" href="assets/style.css">
-    <script src="assets/navmenu.js"></script>
+  <!-- included external css file -->
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/navmenu.js"></script>
 </head>
-<body>
-<nav class="navbar navbar-expand-sm   navbar-light bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
-          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item dropdown dmenu">
-            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-              Our Service
-            </a>
-            <div class="dropdown-menu sm-menu">
-              <a class="dropdown-item" href="#">service2</a>
-              <a class="dropdown-item" href="#">service 2</a>
-              <a class="dropdown-item" href="#">service 3</a>
-            </div>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Call</a>
-          </li>
-           <!-- <li class="nav-item dropdown dmenu">
+<body>
+  <nav class="navbar navbar-expand-sm   navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
+      aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown dmenu">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Our Service
+          </a>
+          <div class="dropdown-menu sm-menu">
+            <a class="dropdown-item" href="#">service2</a>
+            <a class="dropdown-item" href="#">service 2</a>
+            <a class="dropdown-item" href="#">service 3</a>
+          </div>
+        </li>
+        <!-- <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li> -->
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact us</a>
+        </li>
+        <!-- <li class="nav-item dropdown dmenu">
             <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
               Dropdown link
             </a>
@@ -59,34 +61,98 @@
               <a class="dropdown-item" href="#">Link 6</a>
             </div>
           </li> -->
-          </ul>
-          <div class="social-part">
-            <i class="fa fa-facebook" aria-hidden="true"></i>
-            <i class="fa fa-twitter" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-          </div>
-        </div>
-      </nav>
-      <!-- navbar / menu ends -->
-      <section class="home-banner">
-        <div class="container-fluid ptb50">
+      </ul>
+      <div class="social-part">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+        <i class="fa fa-instagram" aria-hidden="true"></i>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar / menu ends -->
+  <section class="home-banner">
+    <div class="container-fluid ptb50">
+      <div class="row">
+        <div class="col-md-6">
           <div class="row">
-            <div class="col-md-6">
-              <div class="row">
-                <div class="col-md-8">
-                  <h1 class="banner-title w3-animate-top">PHP Web Development Services</h1>
-                </div>
-                <div class="col-md-12">
-                  <p class="banner-subtitle">Elevate Your Business By Developing Exceptional Websites With PHP</p>
-                  <button class="btn btn-primary">GET IN TOUCH</button> 
-                </div>
-              </div>
+            <div class="col-md-8">
+              <h1 class="banner-title w3-animate-top">PHP Web Development Services</h1>
             </div>
-            <div class="col-md-6">
-              <div class="">
-                <img src="assets/images/php_banner.jpg" class="img-fluid" alt="">
-              </div>
+            <div class="col-md-12">
+              <p class="banner-subtitle">Elevate Your Business By Developing Exceptional Websites With PHP</p>
+              <a href="" class="btn btn-primary">GET IN TOUCH</a>
             </div>
           </div>
         </div>
-      </section>
+        <div class="col-md-6">
+          <div class="pt10">
+            <img src="assets/images/php_banner.jpg" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="innovation ptb20">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-6" style="display: flex;align-items: center;">
+          <div>
+            <h2 class="innovation-text">INNOVATION FOR ADAPTIVE RETAILERS</h2>
+          </div>
+        </div>
+        <div class="col-md-6" style="display: flex;align-items: center;">
+          <div>
+            <h5 class="innovation-para">IT solutions for the retail industry to build an omnichannel platform helping to maximise conversions and boost customer experience. Stand out with a top-notch digital storefront that your company deserves in the competitive landscape. To help you meet your customers efficiently and maximise your bottom line, we create next-gen, feature-rich and scalable eCommerce solutions.  </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="ptb50" id="contactusform">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2>Contact Us</h2>
+          <div class="">
+            <form method="post" role="form" id="contactus" action="">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="fnamelbl">First Name</label>
+                    <input type="text" name="firstname" class="form-control" id="fnamelbl" placeholder="Your First Name">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="lnamelbl">Last Name</label>
+                    <input type="text" name="lastname" class="form-control" id="lnamelbl" placeholder="Your Last Name">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="emaillbl">Email</label>
+                    <input type="email" name="email" class="form-control" id="emaillbl" placeholder="Your Email">
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="contactlbl">Contact Number</label>
+                    <input type="number" name="contno" class="form-control" id="contactlbl" placeholder="Conatct Number">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="text-center">
+                    <input type="submit" class="btn btn-primary m-auto" value="Submit">
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

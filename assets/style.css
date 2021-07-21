@@ -19,19 +19,39 @@
 /* custome padding margin ends */
 @font-face {
     font-family: NotoSerif-Regular;
-    src: url(assets/fonts/NotoSerif-Regular.ttf);
+    src: url(fonts/Noto_Serif/NotoSerif-Regular.ttf);
+}
+@font-face {
+    font-family: STIXTwoMath-Regular;
+    src: url(fonts/STIX_Two_Math/STIXTwoMath-Regular.ttf);
 }
 body{
     font-family: NotoSerif-Regular;
 }
+/* custom fonts ends */
 .social-part .fa{
     padding-right:20px;
 }
 ul li a{
     margin-right: 20px;
 }
-
 /* banner css */
 .home-banner .banner-subtitle{
     font-size: 30px;
+}
+/* innovation css */
+.innovation{
+    background-color:aqua;
+}
+.innovation .innovation-text{
+    font-size: 65px;
+    /* line-height: inherit; */
+    margin: 0;
+}
+.innovation .innovation-para{
+    /* font-family: STIXTwoMath-Regular; */
+    font-size: 29px;
+    font-weight: 400;
+    text-transform: none;
+    margin: 0;
 }
