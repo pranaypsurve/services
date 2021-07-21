@@ -88,7 +88,7 @@ ul li a{
 /* media queries */
 @media only screen and (max-width:768px){
     .innovation .innovation-para {
-        font-family: STIXTwoMath-Regular;
+        /* font-family: STIXTwoMath-Regular; */
         font-size: 3vw;
         font-weight: 400;
         text-transform: none;
