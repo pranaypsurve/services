@@ -1,92 +1,92 @@
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
-.pt10{
-    padding-top: 10px;
+.pt10 {
+  padding-top: 10px;
 }
-.pb10{
-    padding-bottom: 10px;
+.pb10 {
+  padding-bottom: 10px;
 }
-.ptb10{
-    padding-top: 10px;
-    padding-bottom: 10px;
+.ptb10 {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-.ptb20{
-    padding-top: 20px;
-    padding-bottom: 20px;
+.ptb20 {
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.ptb50{
-    padding-top: 50px;
-    padding-bottom: 50px;
+.ptb50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 /* custome padding margin ends */
 @font-face {
-    font-family: NotoSerif-Regular;
-    src: url(fonts/Noto_Serif/NotoSerif-Regular.ttf);
+  font-family: NotoSerif-Regular;
+  src: url(fonts/Noto_Serif/NotoSerif-Regular.ttf);
 }
 @font-face {
-    font-family: STIXTwoMath-Regular;
-    src: url(fonts/STIX_Two_Math/STIXTwoMath-Regular.ttf);
+  font-family: STIXTwoMath-Regular;
+  src: url(fonts/STIX_Two_Math/STIXTwoMath-Regular.ttf);
 }
-body{
-    font-family: NotoSerif-Regular;
-    background: azure;
+body {
+  font-family: NotoSerif-Regular;
+  background: azure;
 }
 /* custom fonts ends */
-.social-part .fa{
-    padding-right:20px;
+.social-part .fa {
+  padding-right: 20px;
 }
-ul li a{
-    margin-right: 20px;
+ul li a {
+  margin-right: 20px;
 }
 /* banner css */
-.home-banner{
-    background-color: white;
+.home-banner {
+  background-color: white;
 }
-.home-banner .banner-title{
-    font-size: 38px;
+.home-banner .banner-title {
+  font-size: 38px;
 }
-.home-banner .banner-subtitle{
-    font-size: 30px;
+.home-banner .banner-subtitle {
+  font-size: 30px;
 }
 /* innovation css */
-.innovation{
-    background-color:aqua;
+.innovation {
+  background-color: aqua;
 }
-.innovation .innovation-text{
-    font-size: 5vw;
-    /* line-height: inherit; */
-    margin: 0;
-    padding: 10px;
+.innovation .innovation-text {
+  font-size: 5vw;
+  /* line-height: inherit; */
+  margin: 0;
+  padding: 10px;
 }
-.innovation .innovation-para{
-    /* font-family: STIXTwoMath-Regular; */
-    font-size: 2.3vw;
-    font-weight: 400;
-    text-transform: none;
-    margin: 0;
-    padding: 10px;
+.innovation .innovation-para {
+  /* font-family: STIXTwoMath-Regular; */
+  font-size: 2.3vw;
+  font-weight: 400;
+  text-transform: none;
+  margin: 0;
+  padding: 10px;
 }
 /* Contact us */
-.contact-title::after{
-    content: "";
-    border-bottom: 1px solid black;
-    width: 85px;
-    display: block;
-    margin: auto;
-    padding: 6px 0px;
+.contact-title::after {
+  content: "";
+  border-bottom: 1px solid black;
+  width: 85px;
+  display: block;
+  margin: auto;
+  padding: 6px 0px;
 }
-.social-column i{
-    font-size: 30px;
+.social-column i {
+  font-size: 30px;
 }
-.social-column i:hover{
-    font-size: 35px;
-    color: brown;
-    -webkit-transition: all 0.5s 0s ease;
-    -moz-transition: all 0.5s 0s ease;
-    -o-transition: all 0.5s 0s ease;
-    transition: all 0.5s 0s ease;
-    /* transform: translateY(-6px); */
+.social-column i:hover {
+  font-size: 35px;
+  color: brown;
+  -webkit-transition: all 0.5s 0s ease;
+  -moz-transition: all 0.5s 0s ease;
+  -o-transition: all 0.5s 0s ease;
+  transition: all 0.5s 0s ease;
+  /* transform: translateY(-6px); */
 }
 /* pacakage css */
 @import "lesshat";
@@ -100,7 +100,7 @@ body {
   padding: 10px; */
 }
 .package-servics h2 {
-  font-size: 1.6em;
+  font-size: 3vw;
   display: inline;
   text-transform: uppercase;
 }
@@ -114,7 +114,7 @@ body {
   text-decoration: underline;
   font-size: 1.7rem;
 }
-section.package-servics  {
+section.package-servics {
   text-align: justify !important;
   text-justify: distribute-all-lines;
   font-size: 0 !important;
@@ -125,16 +125,16 @@ section.package-servics  {
   margin: auto;
   padding: 10px;
 }
-section.package-servics  > * {
+section.package-servics > * {
   text-align: left;
   font-size: medium;
 }
 section.package-servics :after {
-  content: '';
+  content: "";
   display: inline-block;
   width: 100%;
 }
-section.package-servics  > div {
+section.package-servics > div {
   vertical-align: top;
   display: inline-block;
   width: 100%;
@@ -142,12 +142,12 @@ section.package-servics  > div {
   margin-bottom: 1.9%;
 }
 @media only screen and (max-width: 529px) {
-  section.package-servics  > div {
+  section.package-servics > div {
     width: 100%;
     margin-bottom: 1.9%;
   }
 }
-section.package-servics  > div.all-plans {
+section.package-servics > div.all-plans {
   width: 100%;
   margin-bottom: 1.9%;
 }
@@ -290,7 +290,7 @@ section.package-servics  > div.all-plans {
   color: white;
 }
 .average .price-package .package-price {
-  background-color: #66CAA6;
+  background-color: #66caa6;
   color: white;
 }
 .average .price-package .package-features {
@@ -303,7 +303,7 @@ section.package-servics  > div.all-plans {
   transition: background-color 0.5s ease;
 }
 .average .price-package .sign-up:hover {
-  background-color: #66CAA6;
+  background-color: #66caa6;
 }
 .average .price-package .sign-up:active {
   background-color: #e0f2ed;
@@ -312,7 +312,7 @@ section.package-servics  > div.all-plans {
   border-top-color: #009a86;
 }
 .average .price-package .package-features .package-arrow {
-  border-top-color: #66CAA6;
+  border-top-color: #66caa6;
 }
 .average .price-package .sign-up .package-arrow {
   border-top-color: #e0f2ed;
@@ -427,13 +427,27 @@ section.package-servics  > div.all-plans {
 }
 
 /* media queries */
-@media only screen and (max-width:768px){
-    .innovation .innovation-para {
-        /* font-family: STIXTwoMath-Regular; */
-        font-size: 3vw;
-        font-weight: 400;
-        text-transform: none;
-        margin: 0;
-        padding: 10px;
-    }
+@media only screen and (max-width: 768px) {
+  .innovation .innovation-para {
+    /* font-family: STIXTwoMath-Regular; */
+    font-size: 3vw;
+    font-weight: 400;
+    text-transform: none;
+    margin: 0;
+    padding: 10px;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .price-package .package-price .price span {
+    font-size: 10vw !important;
+  }
+  .price-package .package-price .price span:nth-child(2){
+    font-size: 4vw !important;
+  }
+}
+@media only screen and (min-width:531px) and (max-width: 992px) {
+  .price-package .package-price .price span {
+    font-size: 2.5rem;
+}
 }
